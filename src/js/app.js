@@ -25,10 +25,6 @@ const newTeam = new Team();
 newTeam.add(newChar1);
 newTeam.add(newChar2);
 
-// for (const item of newTeam) {
-//   console.log(item);
-// }
-
-newTeam.forEach((item) => {
+for (const item of newTeam) {
   console.log(item);
-});
+}
